@@ -1,0 +1,69 @@
+vendor_record_id,domain,firm_name_reported,industry_reported,employee_count,custodian_reported,service_model_reported,tax_services_reported,fee_model_reported,source,source_url,observed_at,vendor_confidence
+V-0001,creativeplanning.com,Creative Planning,Investment Management,340,Schwab,,,AUM Percentage,vendor_a,https://creativeplanning.com/about,2026-06-25,0.85
+V-0002,creativeplanning.com,Creative Planning,Financial Planning,340,Schwab,Ongoing Advisory,In-House,,vendor_b,https://creativeplanning.com/about,2025-08-19,0.57
+V-0003,creativeplanning.com,Creative Planning,Investment Advisory,340,Altruist,Ongoing Advisory,In-House,AUM Percentage,web_crawl,https://creativeplanning.com/about,2026-06-24,0.83
+V-0004,merceradvisors.com,Mercer Advisors,Financial Planning,290,,,,,vendor_a,https://merceradvisors.com/about,2026-08-12,0.78
+V-0005,merceradvisors.com,Mercer Advisors,Investment Management,326,Schwab,Ongoing Advisory,In-House,AUM Percentage,vendor_b,https://merceradvisors.com/about,2026-08-15,0.68
+V-0006,carsongroup.com,Carson Group,Investment Management,180,,Ongoing Advisory,Referral Partner,AUM Percentage,vendor_a,https://carsongroup.com/about,2026-08-19,0.91
+V-0007,savantwealth.com,Savant Wealth Management,Investment Management,95,Schwab,,In-House,AUM Percentage,vendor_a,https://savantwealth.com/about,2026-07-05,0.58
+V-0008,savantwealth.com,Savant Wealth Management,financial services,95,Pershing,Ongoing Advisory,,AUM Percentage,vendor_b,https://savantwealth.com/about,2026-09-05,0.73
+V-0009,buckinghamstrategicwealth.com,Buckingham Strategic Wealth,Investment Advisory,126,,,,AUM Percentage,vendor_a,https://buckinghamstrategicwealth.com/about,2026-09-15,0.65
+V-0010,wealthenhancement.com,Wealth Enhancement Group,Wealth Management,210,Schwab,Ongoing Advisory,In-House,,vendor_a,https://wealthenhancement.com/about,2026-09-02,0.75
+V-0011,wealthenhancement.com,Wealth Enhancement Group,Investment Management,210,Altruist,Ongoing Advisory,In-House,,vendor_b,https://wealthenhancement.com/about,2025-09-25,0.85
+V-0012,wealthenhancement.com,Wealth Enhancement Group,Financial Services,210,Altruist,,,AUM Percentage,web_crawl,https://wealthenhancement.com/about,2026-03-23,0.7
+V-0013,brightonjones.com,Brighton Jones,financial services,82,Schwab,Ongoing Advisory,In-House,AUM Percentage,vendor_a,https://brightonjones.com/about,2026-08-10,0.6
+V-0014,brightonjones.com,"Brighton Jones, LLC",Financial Services,88,Fidelity,Ongoing Advisory,,,vendor_b,https://brightonjones.com/about,2026-07-03,0.6
+V-0015,plancorp.com,Plancorp,Investment Management,46,,Ongoing Advisory,Referral Partner,,vendor_a,https://plancorp.com/about,2026-06-16,0.62
+V-0016,abacuswealth.com,Abacus Wealth Partners,financial services,36,Schwab,Ongoing Advisory,Referral Partner,AUM Percentage,vendor_a,https://abacuswealth.com/about,2026-06-26,0.72
+V-0017,abacuswealth.com,Abacus Wealth Partners,Financial Services,36,Schwab,Ongoing Advisory,Referral Partner,AUM Percentage,vendor_b,https://abacuswealth.com/about,2026-01-06,0.94
+V-0018,beaconpointe.com,Beacon Pointe Advisors,Investment Advisory,120,Fidelity,Ongoing Advisory,Referral Partner,AUM Percentage,vendor_a,https://beaconpointe.com/about,2026-06-26,0.8
+V-0019,thecolonygroup.com,The Colony Group,Investment Management,163,Fidelity,,,AUM Percentage,vendor_a,https://thecolonygroup.com/about,2026-07-27,0.83
+V-0020,thecolonygroup.com,The Colony Group,Wealth Management,150,,Ongoing Advisory,,AUM Percentage,vendor_b,https://thecolonygroup.com/about,2026-04-29,0.61
+V-0021,thecolonygroup.com,The Colony Group,financial services,145,,Ongoing Advisory,In-House,AUM Percentage,web_crawl,https://thecolonygroup.com/about,2025-12-17,0.62
+V-0022,ceritypartners.com,Cerity Partners,Investment Management,160,Schwab,,In-House,AUM Percentage,vendor_a,https://ceritypartners.com/about,2026-06-07,0.69
+V-0023,wealthspire.com,Wealthspire Advisors,Investment Advisory,110,,Ongoing Advisory,Referral Partner,AUM Percentage,vendor_a,https://wealthspire.com/about,2026-07-03,0.94
+V-0024,wealthspire.com,Wealthspire Advisors,Wealth Management,113,,,,AUM Percentage,vendor_b,https://wealthspire.com/about,2026-07-12,0.69
+V-0025,wealthspire.com,Wealthspire Advisors,Financial Services,101,Altruist,Ongoing Advisory,Referral Partner,AUM Percentage,web_crawl,https://wealthspire.com/about,2026-08-10,0.91
+V-0026,sequoia-financial.com,Sequoia Financial Group,financial services,71,Schwab,Ongoing Advisory,In-House,,vendor_a,https://sequoia-financial.com/about,2026-07-04,0.72
+V-0027,sequoia-financial.com,Sequoia Financial Group,Financial Services,77,,Ongoing Advisory,,AUM Percentage,vendor_b,https://sequoia-financial.com/about,2026-08-19,0.86
+V-0028,marinerwealthadvisors.com,Mariner Wealth Advisors,financial services,250,Schwab,Ongoing Advisory,In-House,,vendor_a,https://marinerwealthadvisors.com/about,2026-07-14,0.85
+V-0029,marinerwealthadvisors.com,Mariner Wealth Advisors,Investment Advisory,250,Schwab,Ongoing Advisory,In-House,AUM Percentage,vendor_b,https://marinerwealthadvisors.com/about,2025-06-01,0.65
+V-0030,marinerwealthadvisors.com,Mariner Wealth Advisors,Investment Management,242,Fidelity,Ongoing Advisory,In-House,AUM Percentage,web_crawl,https://marinerwealthadvisors.com/about,2026-03-26,0.77
+V-0031,kar.com,Kayne Anderson Rudnick,Investment Management,64,Fidelity,,None,AUM Percentage,vendor_a,https://kar.com/about,2026-08-04,0.64
+V-0032,kar.com,Kayne Anderson Rudnick,financial services,64,Fidelity,Ongoing Advisory,,,vendor_b,https://kar.com/about,2025-08-06,0.57
+V-0033,halberthargrove.com,Halbert Hargrove,Wealth Management,22,Schwab,Ongoing Advisory,Referral Partner,,vendor_a,https://halberthargrove.com/about,2026-06-15,0.86
+V-0034,facet.com,Facet,Wealth Management,136,Fidelity,,None,Flat Fee,vendor_a,https://facet.com/about,2026-05-30,0.83
+V-0035,facet.com,Facet,Investment Advisory,130,Fidelity,Standalone Planning,None,Flat Fee,vendor_b,https://facet.com/about,2025-12-28,0.81
+V-0036,domainmoney.com,Domain Money,financial services,24,,Standalone Planning,,Flat Fee,vendor_a,https://domainmoney.com/about,2026-07-24,0.86
+V-0037,zoefin.com,Zoe Financial,Wealth Management,40,Altruist,Hybrid,Referral Partner,AUM Percentage,vendor_a,https://zoefin.com/about,2026-06-25,0.91
+V-0038,altfest.com,Altfest Personal Wealth Management,Wealth Management,28,,,,,vendor_a,https://altfest.com/about,2026-07-30,0.84
+V-0039,altfest.com,Altfest Personal Wealth Management,Financial Services,28,Schwab,Ongoing Advisory,In-House,AUM Percentage,vendor_b,https://altfest.com/about,2025-12-28,0.56
+V-0040,gerberkawasaki.com,Gerber Kawasaki,Investment Advisory,34,Schwab,,Referral Partner,AUM Percentage,vendor_a,https://gerberkawasaki.com/about,2026-06-17,0.57
+V-0041,gerberkawasaki.com,Gerber Kawasaki,Wealth Management,32,,Ongoing Advisory,,AUM Percentage,vendor_b,https://gerberkawasaki.com/about,2026-07-15,0.87
+V-0042,moderawealth.com,Modera Wealth Management,Investment Management,58,,Ongoing Advisory,,AUM Percentage,vendor_a,https://moderawealth.com/about,2026-09-03,0.71
+V-0043,moderawealth.com,Modera Wealth Management,Financial Services,58,,Ongoing Advisory,In-House,AUM Percentage,vendor_b,https://moderawealth.com/about,2025-12-24,0.8
+V-0044,yebu.com,Yeske Buie,financial services,10,Schwab,,,Flat Fee,vendor_a,https://yebu.com/about,2026-07-13,0.91
+V-0045,yebu.com,"Yeske Buie, LLC",Financial Services,9,Schwab,,Referral Partner,,vendor_b,https://yebu.com/about,2025-08-24,0.78
+V-0046,yebu.com,Yeske Buie,Investment Management,8,Schwab,,Referral Partner,Flat Fee,web_crawl,https://yebu.com/about,2026-06-08,0.76
+V-0047,arnerichmassena.com,Arnerich Massena,Wealth Management,27,Fidelity,,None,,vendor_a,https://arnerichmassena.com/about,2026-06-16,0.97
+V-0048,sbsbfinancial.com,"Sullivan Bruyette Speros & Blayney, LLC",Investment Management,48,,Ongoing Advisory,In-House,AUM Percentage,vendor_a,https://sbsbfinancial.com/about,2026-08-29,0.7
+V-0049,aspiriant.com,Aspiriant,Wealth Management,108,Fidelity,,,AUM Percentage,vendor_a,https://aspiriant.com/about,2026-09-03,0.85
+V-0050,lairdnortonwm.com,Laird Norton Wealth Management,Wealth Management,62,Schwab,Ongoing Advisory,In-House,AUM Percentage,vendor_a,https://lairdnortonwm.com/about,2026-08-15,0.57
+V-0051,lairdnortonwm.com,"Laird Norton Wealth Management, LLC",Investment Management,56,Schwab,Ongoing Advisory,In-House,AUM Percentage,vendor_b,https://lairdnortonwm.com/about,2026-06-13,0.77
+V-0052,purefinancialadvisors.com,Pure Financial Advisors,Financial Planning,42,Schwab,Hybrid,In-House,AUM Percentage,vendor_a,https://purefinancialadvisors.com/about,2026-06-02,0.72
+V-0053,wetherby.com,Wetherby Asset Management,Investment Advisory,39,,Ongoing Advisory,Referral Partner,,vendor_a,https://wetherby.com/about,2026-05-26,0.63
+V-0054,wetherby.com,Wetherby Asset Management,Investment Advisory,38,,Ongoing Advisory,Referral Partner,AUM Percentage,vendor_b,https://wetherby.com/about,2026-05-21,0.69
+V-0055,seia.com,SEIA,Financial Services,70,Fidelity,Ongoing Advisory,Referral Partner,AUM Percentage,vendor_a,https://seia.com/about,2026-08-18,0.83
+V-0056,seia.com,SEIA,Investment Management,70,Schwab,Ongoing Advisory,Referral Partner,,vendor_b,https://seia.com/about,2026-03-11,0.89
+V-0057,chevychasetrust.com,Chevy Chase Trust,Financial Services,34,,Ongoing Advisory,In-House,,vendor_a,https://chevychasetrust.com/about,2026-08-03,0.58
+V-0058,truewealthmanagement.com,"TrueWealth Management, LLC",Wealth Management,14,Schwab,Ongoing Advisory,,AUM Percentage,vendor_a,https://truewealthmanagement.com/about,2026-07-11,0.87
+V-0059,truewealthmanagement.com,TrueWealth Management,Wealth Management,14,,Ongoing Advisory,Referral Partner,AUM Percentage,vendor_b,https://truewealthmanagement.com/about,2026-08-21,0.97
+V-0060,merriman.com,Merriman Wealth Management,financial services,27,,,Referral Partner,AUM Percentage,vendor_a,https://merriman.com/about,2026-08-13,0.82
+V-0061,merriman.com,Merriman Wealth Management,Investment Management,30,Fidelity,Ongoing Advisory,,,vendor_b,https://merriman.com/about,2026-04-21,0.94
+V-0062,merriman.com,Merriman Wealth Management,Investment Advisory,30,Schwab,Ongoing Advisory,Referral Partner,AUM Percentage,web_crawl,https://merriman.com/about,2025-10-21,0.82
+V-0063,parsecfinancial.com,Parsec Financial,Investment Management,38,Schwab,Ongoing Advisory,In-House,,vendor_a,https://parsecfinancial.com/about,2026-07-28,0.8
+V-0064,parsecfinancial.com,"Parsec Financial, LLC",financial services,40,Schwab,Ongoing Advisory,In-House,AUM Percentage,vendor_b,https://parsecfinancial.com/about,2025-08-28,0.58
+V-0065,parsecfinancial.com,Parsec Financial,Investment Management,40,Pershing,Ongoing Advisory,In-House,AUM Percentage,web_crawl,https://parsecfinancial.com/about,2026-07-03,0.72
+V-0066,cardinalpointwealth.com,Cardinal Point Wealth,Investment Advisory,18,Schwab,Hybrid,In-House,AUM Percentage,vendor_a,https://cardinalpointwealth.com/about,2026-07-26,0.62
+V-0067,cardinalpointwealth.com,Cardinal Point Wealth,Investment Advisory,16,Schwab,,In-House,,vendor_b,https://cardinalpointwealth.com/about,2025-05-29,0.6
+V-0068,sbsbfinancial.com,SBSB Financial Advisors,Wealth Management,48,Schwab,Ongoing Advisory,In-House,AUM Percentage,vendor_b,https://sbsbfinancial.com/about,2026-08-21,0.91

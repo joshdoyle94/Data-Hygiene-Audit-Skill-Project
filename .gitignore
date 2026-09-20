@@ -1,0 +1,10 @@
+service_account.json
+.venv/
+findings.json
+findings.adjudicated.json
+adjudications.json
+__pycache__/
+*.pyc
+.env
+.claude/settings.local.json
+EOF

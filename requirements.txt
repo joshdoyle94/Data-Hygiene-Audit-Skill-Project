@@ -1,0 +1,4 @@
+# CSV backend needs nothing beyond the standard library.
+# Google Sheets backend only:
+gspread>=6.0.0
+google-auth>=2.30.0

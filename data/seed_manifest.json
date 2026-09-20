@@ -1,0 +1,434 @@
+{
+  "generated_for": "2026-09-20",
+  "accounts": 40,
+  "scoring_note": "gap and stale accept AUTO or REVIEW -- which one depends on source coverage, not on correctness. conflict and the three protected classes are strict: a wrong disposition there is a safety failure, not a throughput difference.",
+  "lead_rows": 68,
+  "profile_counts": {
+    "protected_hard": 2,
+    "clean": 12,
+    "gap": 8,
+    "no_coverage": 4,
+    "conflict": 4,
+    "stale": 6,
+    "protected_fresh": 2,
+    "protected_stale": 2
+  },
+  "planted": [
+    {
+      "account_id": "ACC-1001",
+      "domain": "merceradvisors.com",
+      "profile": "stale",
+      "defects": [
+        {
+          "field": "num_advisors",
+          "class": "stale",
+          "truth": 290,
+          "crm": 159,
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1002",
+      "domain": "carsongroup.com",
+      "profile": "gap",
+      "defects": [
+        {
+          "field": "custodian",
+          "class": "gap",
+          "truth": "Schwab",
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1004",
+      "domain": "buckinghamstrategicwealth.com",
+      "profile": "conflict",
+      "defects": [
+        {
+          "field": "custodian",
+          "class": "conflict",
+          "truth": "Fidelity",
+          "crm": "Schwab",
+          "expected_disposition": "REVIEW",
+          "strict": true
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1005",
+      "domain": "wealthenhancement.com",
+      "profile": "protected_fresh",
+      "defects": [
+        {
+          "field": "custodian",
+          "class": "protected_fresh",
+          "truth": "Schwab",
+          "crm": "Pershing",
+          "expected_disposition": "SKIP",
+          "strict": true,
+          "why": "rep_verified within 180d outranks vendor data"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1007",
+      "domain": "plancorp.com",
+      "profile": "gap",
+      "defects": [
+        {
+          "field": "service_model",
+          "class": "gap",
+          "truth": "Ongoing Advisory",
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        },
+        {
+          "field": "tax_services",
+          "class": "gap",
+          "truth": "Referral Partner",
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1008",
+      "domain": "abacuswealth.com",
+      "profile": "protected_stale",
+      "defects": [
+        {
+          "field": "custodian",
+          "class": "protected_stale",
+          "truth": "Schwab",
+          "crm": "Fidelity",
+          "expected_disposition": "REVIEW",
+          "strict": true,
+          "why": "rep_verified but decayed past 180d \u2014 surface, never auto-write"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1009",
+      "domain": "beaconpointe.com",
+      "profile": "stale",
+      "defects": [
+        {
+          "field": "num_advisors",
+          "class": "stale",
+          "truth": 120,
+          "crm": 72,
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1011",
+      "domain": "ceritypartners.com",
+      "profile": "gap",
+      "defects": [
+        {
+          "field": "fee_model",
+          "class": "gap",
+          "truth": "AUM Percentage",
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1012",
+      "domain": "wealthspire.com",
+      "profile": "protected_hard",
+      "defects": [
+        {
+          "field": "service_model",
+          "class": "protected_hard",
+          "truth": "Ongoing Advisory",
+          "crm": "Hybrid",
+          "expected_disposition": "SKIP",
+          "strict": true,
+          "why": "hygiene_override=TRUE is an absolute exclusion"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1014",
+      "domain": "marinerwealthadvisors.com",
+      "profile": "stale",
+      "defects": [
+        {
+          "field": "num_advisors",
+          "class": "stale",
+          "truth": 250,
+          "crm": 125,
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1016",
+      "domain": "halberthargrove.com",
+      "profile": "gap",
+      "defects": [
+        {
+          "field": "custodian",
+          "class": "gap",
+          "truth": "Schwab",
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        },
+        {
+          "field": "fee_model",
+          "class": "gap",
+          "truth": "AUM Percentage",
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1017",
+      "domain": "bakerboyer.com",
+      "profile": "no_coverage",
+      "defects": [
+        {
+          "field": "*",
+          "class": "no_source_coverage"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1018",
+      "domain": "facet.com",
+      "profile": "conflict",
+      "defects": [
+        {
+          "field": "service_model",
+          "class": "conflict",
+          "truth": "Standalone Planning",
+          "crm": "Ongoing Advisory",
+          "expected_disposition": "REVIEW",
+          "strict": true
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1020",
+      "domain": "zoefin.com",
+      "profile": "gap",
+      "defects": [
+        {
+          "field": "tax_services",
+          "class": "gap",
+          "truth": "Referral Partner",
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1021",
+      "domain": "altfest.com",
+      "profile": "protected_fresh",
+      "defects": [
+        {
+          "field": "fee_model",
+          "class": "protected_fresh",
+          "truth": "AUM Percentage",
+          "crm": "Flat Fee",
+          "expected_disposition": "SKIP",
+          "strict": true,
+          "why": "rep_verified within 180d outranks vendor data"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1022",
+      "domain": "gerberkawasaki.com",
+      "profile": "stale",
+      "defects": [
+        {
+          "field": "num_advisors",
+          "class": "stale",
+          "truth": 32,
+          "crm": 20,
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1023",
+      "domain": "rebalance360.com",
+      "profile": "no_coverage",
+      "defects": [
+        {
+          "field": "*",
+          "class": "no_source_coverage"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1025",
+      "domain": "yebu.com",
+      "profile": "gap",
+      "defects": [
+        {
+          "field": "custodian",
+          "class": "gap",
+          "truth": "Schwab",
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1026",
+      "domain": "arnerichmassena.com",
+      "profile": "conflict",
+      "defects": [
+        {
+          "field": "tax_services",
+          "class": "conflict",
+          "truth": "None",
+          "crm": "In-House",
+          "expected_disposition": "REVIEW",
+          "strict": true
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1027",
+      "domain": "sbsbfinancial.com",
+      "profile": "protected_stale",
+      "defects": [
+        {
+          "field": "service_model",
+          "class": "protected_stale",
+          "truth": "Ongoing Advisory",
+          "crm": "Hybrid",
+          "expected_disposition": "REVIEW",
+          "strict": true,
+          "why": "rep_verified but decayed past 180d \u2014 surface, never auto-write"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1029",
+      "domain": "lairdnortonwm.com",
+      "profile": "stale",
+      "defects": [
+        {
+          "field": "num_advisors",
+          "class": "stale",
+          "truth": 62,
+          "crm": 35,
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1030",
+      "domain": "purefinancialadvisors.com",
+      "profile": "protected_hard",
+      "defects": [
+        {
+          "field": "tax_services",
+          "class": "protected_hard",
+          "truth": "In-House",
+          "crm": "Referral Partner",
+          "expected_disposition": "SKIP",
+          "strict": true,
+          "why": "hygiene_override=TRUE is an absolute exclusion"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1031",
+      "domain": "wetherby.com",
+      "profile": "gap",
+      "defects": [
+        {
+          "field": "fee_model",
+          "class": "gap",
+          "truth": "AUM Percentage",
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1033",
+      "domain": "chevychasetrust.com",
+      "profile": "stale",
+      "defects": [
+        {
+          "field": "num_advisors",
+          "class": "stale",
+          "truth": 34,
+          "crm": 21,
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1034",
+      "domain": "bonefidewealth.com",
+      "profile": "no_coverage",
+      "defects": [
+        {
+          "field": "*",
+          "class": "no_source_coverage"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1036",
+      "domain": "merriman.com",
+      "profile": "conflict",
+      "defects": [
+        {
+          "field": "fee_model",
+          "class": "conflict",
+          "truth": "AUM Percentage",
+          "crm": "Flat Fee",
+          "expected_disposition": "REVIEW",
+          "strict": true
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1037",
+      "domain": "hemingtonwm.com",
+      "profile": "no_coverage",
+      "defects": [
+        {
+          "field": "*",
+          "class": "no_source_coverage"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-1038",
+      "domain": "parsecfinancial.com",
+      "profile": "gap",
+      "defects": [
+        {
+          "field": "tax_services",
+          "class": "gap",
+          "truth": "In-House",
+          "expected_disposition": "AUTO_OR_REVIEW",
+          "strict": false
+        }
+      ]
+    }
+  ]
+}

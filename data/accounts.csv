@@ -1,0 +1,41 @@
+account_id,firm_name,domain,industry,num_advisors,custodian,service_model,tax_services,fee_model,last_verified,data_source,hygiene_override
+ACC-1000,Creative Planning,creativeplanning.com,Financial Services,340,Schwab,Ongoing Advisory,In-House,AUM Percentage,2025-03-15,bulk_import,FALSE
+ACC-1001,Mercer Advisors,merceradvisors.com,Financial Services,159,Fidelity,Ongoing Advisory,In-House,AUM Percentage,2024-11-24,crm_manual,FALSE
+ACC-1002,Carson Group,carsongroup.com,Financial Services,180,TBD,Ongoing Advisory,Referral Partner,AUM Percentage,2026-05-19,crm_manual,FALSE
+ACC-1003,Savant Wealth Management,savantwealth.com,Financial Services,95,Schwab,Ongoing Advisory,In-House,AUM Percentage,2025-03-15,bulk_import,FALSE
+ACC-1004,Buckingham Strategic Wealth,buckinghamstrategicwealth.com,Financial Services,130,Schwab,Ongoing Advisory,Referral Partner,AUM Percentage,2026-04-26,crm_manual,FALSE
+ACC-1005,Wealth Enhancement Group,wealthenhancement.com,Financial Services,210,Pershing,Ongoing Advisory,In-House,AUM Percentage,2026-06-27,rep_verified,FALSE
+ACC-1006,Brighton Jones,brightonjones.com,Financial Services,88,Schwab,Ongoing Advisory,In-House,AUM Percentage,2025-03-15,bulk_import,FALSE
+ACC-1007,Plancorp,plancorp.com,Financial Services,42,Schwab,TBD,TBD,AUM Percentage,2026-05-07,crm_manual,FALSE
+ACC-1008,Abacus Wealth Partners,abacuswealth.com,Financial Services,36,Fidelity,Ongoing Advisory,Referral Partner,AUM Percentage,2025-09-08,rep_verified,FALSE
+ACC-1009,Beacon Pointe Advisors,beaconpointe.com,Financial Services,72,Fidelity,Ongoing Advisory,Referral Partner,AUM Percentage,2024-08-08,crm_manual,FALSE
+ACC-1010,The Colony Group,thecolonygroup.com,Financial Services,145,Fidelity,Ongoing Advisory,In-House,AUM Percentage,2026-05-30,crm_manual,FALSE
+ACC-1011,Cerity Partners,ceritypartners.com,Financial Services,160,Schwab,Ongoing Advisory,In-House,TBD,2026-06-25,crm_manual,FALSE
+ACC-1012,Wealthspire Advisors,wealthspire.com,Financial Services,110,Pershing,Hybrid,Referral Partner,AUM Percentage,2026-06-19,crm_manual,TRUE
+ACC-1013,Sequoia Financial Group,sequoia-financial.com,Financial Services,75,Schwab,Ongoing Advisory,In-House,AUM Percentage,2025-03-15,bulk_import,FALSE
+ACC-1014,Mariner Wealth Advisors,marinerwealthadvisors.com,Financial Services,125,Schwab,Ongoing Advisory,In-House,AUM Percentage,2024-06-23,crm_manual,FALSE
+ACC-1015,Kayne Anderson Rudnick,kar.com,Financial Services,64,Fidelity,Ongoing Advisory,None,AUM Percentage,2026-06-16,crm_manual,FALSE
+ACC-1016,Halbert Hargrove,halberthargrove.com,Financial Services,22,N/A,Ongoing Advisory,Referral Partner,-,2026-06-09,crm_manual,FALSE
+ACC-1017,Baker Boyer,bakerboyer.com,Financial Services,18,Pershing,Ongoing Advisory,In-House,AUM Percentage,2026-05-24,crm_manual,FALSE
+ACC-1018,Facet,facet.com,Financial Services,130,Fidelity,Ongoing Advisory,None,Flat Fee,2026-07-27,crm_manual,FALSE
+ACC-1019,Domain Money,domainmoney.com,Financial Services,24,Altruist,Standalone Planning,None,Flat Fee,2026-08-02,crm_manual,FALSE
+ACC-1020,Zoe Financial,zoefin.com,Financial Services,40,Altruist,Hybrid,-,AUM Percentage,2026-04-27,crm_manual,FALSE
+ACC-1021,Altfest Personal Wealth Management,altfest.com,Financial Services,28,Schwab,Ongoing Advisory,In-House,Flat Fee,2026-07-13,rep_verified,FALSE
+ACC-1022,Gerber Kawasaki,gerberkawasaki.com,Financial Services,20,Schwab,Ongoing Advisory,Referral Partner,AUM Percentage,2025-02-16,crm_manual,FALSE
+ACC-1023,Rebalance,rebalance360.com,Financial Services,20,Schwab,Ongoing Advisory,None,AUM Percentage,2026-04-27,crm_manual,FALSE
+ACC-1024,Modera Wealth Management,moderawealth.com,Financial Services,58,Schwab,Ongoing Advisory,In-House,AUM Percentage,2025-03-15,bulk_import,FALSE
+ACC-1025,Yeske Buie,yebu.com,Financial Services,9,-,Ongoing Advisory,Referral Partner,Flat Fee,2026-08-29,crm_manual,FALSE
+ACC-1026,Arnerich Massena,arnerichmassena.com,Financial Services,26,Fidelity,Ongoing Advisory,In-House,AUM Percentage,2026-06-10,crm_manual,FALSE
+ACC-1027,Sullivan Bruyette Speros & Blayney,sbsbfinancial.com,Financial Services,48,Schwab,Hybrid,In-House,AUM Percentage,2025-02-10,rep_verified,FALSE
+ACC-1028,Aspiriant,aspiriant.com,Financial Services,105,Fidelity,Ongoing Advisory,In-House,AUM Percentage,2026-07-29,crm_manual,FALSE
+ACC-1029,Laird Norton Wealth Management,lairdnortonwm.com,Financial Services,35,Schwab,Ongoing Advisory,In-House,AUM Percentage,2025-05-18,crm_manual,FALSE
+ACC-1030,Pure Financial Advisors,purefinancialadvisors.com,Financial Services,44,Schwab,Hybrid,Referral Partner,AUM Percentage,2026-08-10,crm_manual,TRUE
+ACC-1031,Wetherby Asset Management,wetherby.com,Financial Services,38,Fidelity,Ongoing Advisory,Referral Partner,-,2026-07-20,crm_manual,FALSE
+ACC-1032,SEIA,seia.com,Financial Services,70,Fidelity,Ongoing Advisory,Referral Partner,AUM Percentage,2025-03-15,bulk_import,FALSE
+ACC-1033,Chevy Chase Trust,chevychasetrust.com,Financial Services,21,Pershing,Ongoing Advisory,In-House,AUM Percentage,2025-01-13,crm_manual,FALSE
+ACC-1034,Bone Fide Wealth,bonefidewealth.com,Financial Services,3,Altruist,Hybrid,None,Subscription,2026-07-20,crm_manual,FALSE
+ACC-1035,TrueWealth Management,truewealthmanagement.com,Financial Services,14,Schwab,Ongoing Advisory,Referral Partner,AUM Percentage,2026-07-05,crm_manual,FALSE
+ACC-1036,Merriman Wealth Management,merriman.com,Financial Services,30,Schwab,Ongoing Advisory,Referral Partner,Flat Fee,2026-05-18,crm_manual,FALSE
+ACC-1037,Hemington Wealth Management,hemingtonwm.com,Financial Services,11,Schwab,Ongoing Advisory,Referral Partner,Flat Fee,2026-07-10,crm_manual,FALSE
+ACC-1038,Parsec Financial,parsecfinancial.com,Financial Services,40,Schwab,Ongoing Advisory,TBD,AUM Percentage,2026-08-30,crm_manual,FALSE
+ACC-1039,Cardinal Point Wealth,cardinalpointwealth.com,Financial Services,16,Schwab,Hybrid,In-House,AUM Percentage,2026-06-13,crm_manual,FALSE
