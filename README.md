@@ -9,6 +9,8 @@ advisers. Accounts are advisory firms. The fields that decay are the ones that m
 how many advisers a firm has, which custodian it clears through, and whether it does
 ongoing advisory work or one-off planning.
 
+Loom recording here: https://www.loom.com/share/0154486acd3c4affa3f4fd7d98fdf27f
+
 ## Why a skill and not a script
 
 A script can find the discrepancies. It cannot decide whether "SBSB Financial Advisors"
